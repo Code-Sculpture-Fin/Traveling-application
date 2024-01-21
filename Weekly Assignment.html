@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intergalactic Travel Application Form</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <script>
+        const canvas = document.getElementById("signature");
+        const ctx = canvas.getContext("2d");
+    
+    </script>
+    <form action="">
+        <div class="div">
+            <h1 class="header">VentureVista Travel </h1><br>
+            <fieldset class="first">
+                
+            
+                <hr>
+                <legend id="legend">Personal Information<br>(Please fill out this form with the required information)</legend>
+                <label for="name" id="name">Full Name :</label><br>
+                <input id="input" type="text"  placeholder="Asdf sdfg dfg" required><br>
+                <label for="email" id="email">Email :</label><br>
+                <input id="input" type="email" placeholder="asd@example.com" required><br>
+                <label for="Birthday" id="Birthday">Birthday :</label><br>
+                <input id="input" type="date" min="1990-01-01" max="2005-12-31" required><br>
+                <label for="Age" id="Age">Age :</label><br>
+                <input id="input" type="number" min="18" required><br>
+                <label for="E-no" id="E-no">Emergency Contact Number :</label><br>
+                <input id="input" type="tel" placeholder="+358-41-1455123" required><br>
+                <label for="Preferred spacesuit color" id="cloth-color">Preferred spacesuit color :</label>
+                <input id="color" type="color">
+            </fieldset>
+            <fieldset class="second">
+                <hr>
+                <legend id="legend">Travel Preferences</legend>
+                
+                <label id="planet" for="Planet">Planets</label><input type="checkbox">
+                <label id="galaxies" for="Galaxies">Galaxies</label><input type="checkbox"><br>
+                <label>Cabin Class: </label>
+                <label id="economy" for="economy">Economy</label><input type="radio">
+                
+                <label id="Business" for="Business">,Business</label><input type="radio">
+                <label id="Galactic-Suite" for="Galactic-Suite">,Galactic-Suite</label><input type="radio"><br>
+                <label id="gravity-level" for="gravity-level">Gravity Level in the Spacecraft :</label><input type="range" min="5" max="10" required><br>
+                <label id="Preferred-meals" for="Preferred-meals">Preferred Meals :
+                    <select id="meals">
+                        <option>(Select)</option>
+                        <option>Earth Cuisine</option>
+                        <option>Martian Delight</option>
+                        <option>Asteroid Snacks</option>
+                    </select>
+                </label>
+
+
+            </fieldset>
+            <fieldset class="third">
+                <hr>
+                <legend id="legend">Intergalactic Passport Upload Section</legend>
+                <label id="ID-type">Passport/Intergalactic ID :
+                    <select id="ID">
+                        <option>(Select)</option>
+                        <option>Passport</option>
+                        <option>Intergalactic ID</option>
+                    </select><br>
+                    
+                </label>
+                <label id="Input-ID">Upload your Passport/Intergalactic ID :</label>
+                <input id="input-id" type="file" >
+
+            </fieldset>
+            <fieldset>
+                <hr>
+                <legend id="legend">Health and Safety </legend>
+                <label for="space-allergies">Moon Dust</label><input type="checkbox" required>
+                <label for="space-allergies">solar Flares</label><input type="checkbox" required><br>
+                <label id="special" for="special">Special Medical Requirements :</label><br><textarea id="special-text" rows="3" cols="30" placeholder="For Details any special Medical Requirements"></textarea>
+            </fieldset>
+            <fieldset>
+                <hr>
+                <legend id="legend">Legal Agreements and Consents</legend>
+                <label id="legal" for="Risk Consent">Risk Consent <input type="checkbox" required ></label>
+                <label id="legal" for="Space Sickness waiver">Space Sickness Waiver <input type="checkbox" required></label><br>
+                <label id="signature" for="signature">Your Signature :</label><input type="hidden">
+                <canvas id="canva">Sign</canvas>
+            </fieldset>
+            <fieldset>
+                <hr>
+                <legend id="legend">Comments</legend>
+                <label>Extra Requests or Fun Space Travel Wishes :</label><br><textarea id="Additional-requests" rows="3" cols="30" placeholder="Additional Requests and Comments"></textarea>
+            </fieldset>
+            <input id="reset" type="reset" value="reset"><input id="submit" type="submit">
+        </div>
+</form>
+
+    
+</body>
+</html>

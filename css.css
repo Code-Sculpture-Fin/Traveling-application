@@ -1,0 +1,121 @@
+body{
+    animation:mymove 10s infinite;
+    
+   
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    
+    
+    
+    
+}
+@keyframes mymove{
+    0% {background-image: url(https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8fA%3D%3D);}
+    40% {background-image: url(https://www.shutterstock.com/image-photo/new-space-rocket-lift-off-600nw-2108530640.jpg);}
+    100% {background-image: url(https://cff2.earth.com/uploads/2023/09/08084619/earth-seen-from-moon_2medium-960x640.jpg);}
+   
+ 
+ 
+ }
+.div{
+    background: linear-gradient(rgb(23, 1, 50), rgb(45, 46, 76), rgb(28, 27, 67));
+    border: 5px solid rgb(2, 1, 39);
+    border-style: outset;
+    border-radius: 50px;
+    box-shadow: 50px 5px 5px rgb(17, 23, 79);
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    
+
+}
+fieldset{
+    border: none;
+    padding: 10px;
+    margin: 10px 0 0 0;
+
+}
+.header{
+    color: rgb(237, 237, 243);
+    text-align: center;
+    
+    text-shadow: 15px 14px 14px rgb(4, 12, 91);
+    opacity: 1000.0;
+    border: solid, rgb(39, 4, 67), 4px;
+    font-size: 50px;
+    
+   
+}
+input,textarea{
+    background-color: rgb(244, 240, 234);
+    border-color: antiquewhite ;
+}
+#input-id{
+    width: 40%;
+}
+input{
+    width: 15px;
+}
+
+#legend{
+    opacity: 10000000.0;
+    font-size: 120%;
+    color: rgb(248, 243, 243);
+    font-weight: 1000;
+}
+#Additional-requests{
+    width: 70%;
+}
+#special-text{
+    width: 70%;
+}
+#input{
+    width: 70%;
+
+}
+#color{
+    width: 17.5%;
+    height: 15px;
+}
+#reset{
+    width: 9%;
+    margin-bottom: 10px;
+    
+    color: rgb(245, 241, 241);
+    background-color: rgb(9, 2, 58);
+    border-color: white;
+    height: 35px;
+
+
+}
+#submit{
+    width: 40%;
+    margin-bottom: 10px;
+    color: rgb(246, 246, 249);
+    background-color: rgb(9, 2, 58);
+    height: 35px;
+    border-color: white;
+    margin: 1em auto;
+    text-align: center;
+   
+
+    
+
+}
+#canva{
+    border: 2px dashed rgb(25, 7, 141);
+    background-color: rgb(200, 200, 250);
+    width: 200px;
+    height: 50px;
+}
