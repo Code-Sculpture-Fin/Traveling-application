@@ -1,1 +1,1 @@
-# Traveling-application
+# Travelling-application
